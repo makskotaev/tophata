@@ -1,0 +1,66 @@
+.sun{
+    height: 60px;
+    width: 300px;
+    margin-inline: auto;
+    border: solid 2px #98AEFA;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+.sun div{
+    width: 200px;
+    display: flex;
+    align-items: center;
+}
+.sun div a{
+    font-family: 'Bahnschrift', sans-serif; 
+    color: #98AEFA;
+    text-decoration: none;
+    font-size: 24px;
+    padding-left: 10px;
+    transition: 200ms;
+}
+.sun div a:hover{
+    color: rgba(152, 174, 250, 0.6);
+}
+.commands{
+    width: 60%; 
+    height: auto; 
+    margin-inline: auto;
+    border: solid 2px #98AEFA;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+p{
+    text-align: center;
+    color: #98AEFA;
+}
+.commands a{
+    color: #2DD4BF;
+    cursor: pointer;
+}
+hr{
+    border-color: #98AEFA;
+}
+.commands div{
+    margin-inline: auto;
+    width: 138px;
+    background-color: #161924;
+    transform: translateY(-50%);
+}
+.commands label{
+    color: #2DD4BF;
+    border: solid 2px #161924;
+}
+.msg{
+    background: #252B3F;
+    border: solid 2px #98AEFA;
+    border-radius: 10px;
+    width: 180px;
+    position: fixed;
+    display: none;
+    left: 0;
+    right: 0;
+    bottom: 10px;
+    margin: auto;
+}
